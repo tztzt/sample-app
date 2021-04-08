@@ -22,6 +22,9 @@
 !/tmp/pids/
 !/tmp/pids/.keep
 
+# Ignore db test files.
+db/test.*
+
 # Ignore uploaded files in development.
 /storage/*
 !/storage/.keep
