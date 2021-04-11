@@ -9,8 +9,8 @@ local:
 
 amazon:
   service: S3
-  access_key_id:     <%= ENV['AKIAZOJS5ARRRNMK6NF4'] %>
-  secret_access_key: <%= ENV['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'] %>
+  access_key_id:     <%= ENV['AKIAZOJS5ARRY6OJ7HFJ'] %>
+  secret_access_key: <%= ENV['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'] %>
   region:            <%= ENV['us-east-2'] %>
   bucket:            <%= ENV['ruby-tut-bucket'] %>
 
