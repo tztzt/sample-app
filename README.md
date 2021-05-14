@@ -23,3 +23,7 @@ Finally, run the test suite to verify that everything is working correctly:
 ```
 $ rails test
 ```
+
+
+## About
+
