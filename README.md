@@ -29,30 +29,31 @@ $ rails test
 
 * Account Management
   * Creation
-  * Activation - using SendGrid to send emails
+  * Activation - via email
   * Login
-  * Password Hash/Digest
+  * Password Hashing/Digest
   * Changing/Resetting Password 
+* Administrative Account
+  * User deletion  
 * Login Features
   * 'Remember Me' token and digest   
-* Other Account Features
-  * Admin Users   
-* Tweeting
-  * Creating of microposts
-  * Uploading of photos to host on AWS servers
+* Tweeting/Posting of microposts
+  * Creation of microposts
+  * Upload of photos hosted on AWS servers
 * Following of users
-  * Retrieval and display of following/followed users
-  * Follow and unfollow of other users
+  * Retrieval and display following/followed users
+  * Follow and unfollow other users
   * Display of microposts of followed users    
 
 ## Concepts used in this Project
-* Deployment of Project in Production
-* Deployment of Project in Deployment to Heroku Apps
+* Database creation using migration - database creation without needing SQL
+* Deployment of Project in Production and Deployment to Heroku Apps
+* Database Configuration (Production and Deployment)
 * Model-View Controller pattern
 * Inheritance Hierachies
 * Styling (using bootstrap)
-* Use of cookies for local data storage
-* Database Configuration (Production and Deployment)
+* Use of cookies for local data storage to track sessions 
 * Partial Pages Refactoring
-* Sending email templates via SendGrid
+* Sending email templates via SendGrid interface
 * Hosting of Images on Amazon Web Services 
+* Setup of SSL to encrypt sent data 
